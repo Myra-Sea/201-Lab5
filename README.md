@@ -24,6 +24,8 @@ Here are a couple of things to keep in mind:
 
 This lab will have starter code provided. Work with your instructor directly to gain access to this code.
 
+<!-- It is the files already provided in this template repo (such as index.html, app.js, etc.) -->
+
 ### Submission Instructions
 
 Make sure your *main* branch is up to date with your most recent code. 
