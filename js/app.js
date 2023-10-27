@@ -9,13 +9,28 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
-function sum(a, b) { //eslint-disable-line
+//Demo - Step 1
+// function sum(a, b) { //eslint-disable-line
+//   let total = a + b;
+//   return [total, 'The sum of 4 and 7 is ' + total + '.'];
+// }
 
+//Demo - Another way to write Step 1 is:
+
+// function sum(a, b) { //eslint-disable-line
+//     let total = a + b;
+//     return [total, `The sum of 4 and 7 is ${total}.`];
+//   }
+
+//Note that the above second example uses the tic marks that are on the keyboard next to the ~ sign
+
+function sum(a, b) { //eslint-disable-line
+  let total = a + b;
+  return [total, `The sum of ${a} and ${b} is ${total}.`];
 }
 
-
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 
 
