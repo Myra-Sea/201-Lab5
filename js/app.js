@@ -99,10 +99,22 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
 
+  let a = sumArr[0];
+  let b = sumArr[1];
+  let c = sumArr[2];
+  let sumAandB = sum(a, b)[0];
+  let totalSum = sum(sumAandB, c)[0];
+
+  return [totalSum, `${a},${b},${c} was passed in as an array of numbers, and ${totalSum} is their sum.`];
 }
 
-// Here is the test for sumArray(); uncomment it to run it
+// In review the next lecture, it was pointed out that I could have added the line
+// let joined = sumArr.join(',');
+// In order to have the last line of my code instead be the shorter
+// return [totalSum, `${joined} was passed in as an array of numbers, and ${totalSum} is their sum.`];
 
+
+// Here is the test for sumArray(); uncomment it to run it
 // testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
